@@ -41,7 +41,7 @@ export const MainMenu = () => {
           <div className={styles.address}>{walletPreview(address)}</div>
           <MenuItem
             className={styles.menu_label}
-            label="Mint"
+            label="Mint SPAMART"
             route="mint"
             need_sync
           />

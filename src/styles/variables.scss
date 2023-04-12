@@ -13,7 +13,7 @@ $letter-spacing: 0.015em;
 
 :root {
   // COMMON
-  --text-font: 'Iosevka', 'IBM Plex Mono', 'Courier New', monospace;
+  --text-font: 'Courier', monospace;
   --body-transition: background-color #{$theme-duration} ease-out,
     color #{$theme-duration} ease-out;
   --max-width: 1800px;
@@ -34,13 +34,13 @@ $letter-spacing: 0.015em;
   --gray-90: #191919;
   --gray-100: #000000;
 
-  --background-color: #ffffff;
+  --background-color: #f48fb1;
   --background-color-rgb: 255, 255, 255;
   --border-color: rgba(0, 0, 0, 0.1);
   --shadow-color: rgba(0, 0, 0, 0.2);
   --secondary-color: rgba(0, 0, 0, 0.5);
 
-  --text-color: var(--gray-80);
+  --text-color: #00b;
 }
 
 :root[data-theme='dark'] {
@@ -58,13 +58,15 @@ $letter-spacing: 0.015em;
   --gray-90: #e6e6e6;
   --gray-100: #ffffff;
 
-  --background-color: #111;
+  /* --background-color: #111; */
+  --background-color: #00b;
   --background-color-rgb: 0, 0, 0;
   --border-color: rgba(255, 255, 255, 0.3);
   --shadow-color: rgba(255, 255, 255, 0.3);
   --secondary-color: rgba(255, 255, 255, 0.5);
 
-  --text-color: #dedede;
+  /*--text-color: #dedede;*/
+  --text-color: #f48fb1;
 }
 
 :root[data-theme='grass'] {
@@ -82,7 +84,7 @@ $letter-spacing: 0.015em;
   --gray-90: #00e21e;
   --gray-100: #00ff00;
 
-  --background-color: #111;
+  --background-color: #00b;
   --background-color-rgb: 0, 0, 0;
   --border-color: rgba(255, 255, 255, 0.3);
   --shadow-color: rgba(255, 255, 255, 0.3);

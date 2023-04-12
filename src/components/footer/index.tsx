@@ -94,7 +94,7 @@ export const Footer = ({ menu, pin }: FooterProps) => {
                 <div className={styles.address}>{walletPreview(address)}</div>
                 <MenuItem
                   className={styles.menu_label}
-                  label="Mint"
+                  label="Mint SPAMART"
                   route="mint"
                   need_sync
                 />
