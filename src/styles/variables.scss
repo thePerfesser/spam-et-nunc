@@ -22,8 +22,8 @@ $letter-spacing: 0.015em;
   // Theme
   --gray-0: #ffffff;
   --gray-5: #f2f2f2;
-  --gray-10: #e6e6e6;
-  --gray-15: #d9d9d9;
+  --gray-10: #ffffff;
+  --gray-15: #ffff00;
   --gray-20: #cccccc;
   --gray-30: #b3b3b3;
   --gray-40: #999999;
@@ -36,7 +36,7 @@ $letter-spacing: 0.015em;
 
   --background-color: #f48fb1;
   --background-color-rgb: 255, 255, 255;
-  --border-color: rgba(0, 0, 0, 0.1);
+  --border-color: rgba(0, 0, 0, 1);
   --shadow-color: rgba(0, 0, 0, 0.2);
   --secondary-color: rgba(0, 0, 0, 0.5);
 
@@ -46,7 +46,7 @@ $letter-spacing: 0.015em;
 :root[data-theme='dark'] {
   --gray-0: #000000;
   --gray-5: #2f2f2f;
-  --gray-10: #1a1a1a;
+  --gray-10: #e75480;
   --gray-15: #262626;
   --gray-20: #515151;
   --gray-30: #494949;
@@ -59,11 +59,12 @@ $letter-spacing: 0.015em;
   --gray-100: #ffffff;
 
   /* --background-color: #111; */
-  --background-color: #00b;
-  --background-color-rgb: 0, 0, 0;
+  /* --background-color: #00b; */
+  --background-color: #99004d;
+  --background-color-rgb: 255, 0, 0;
   --border-color: rgba(255, 255, 255, 0.3);
   --shadow-color: rgba(255, 255, 255, 0.3);
-  --secondary-color: rgba(255, 255, 255, 0.5);
+  --secondary-color: rgba(255, 255, 255);
 
   /*--text-color: #dedede;*/
   --text-color: #f48fb1;
@@ -84,13 +85,13 @@ $letter-spacing: 0.015em;
   --gray-90: #00e21e;
   --gray-100: #00ff00;
 
-  --background-color: #00b;
+  --background-color: #1b5e20;
   --background-color-rgb: 0, 0, 0;
   --border-color: rgba(255, 255, 255, 0.3);
   --shadow-color: rgba(255, 255, 255, 0.3);
   --secondary-color: rgba(255, 255, 255, 0.5);
 
-  --text-color: #00ff00;
+  --text-color: #f48fb1;
 }
 
 :root[data-theme='noui'] {
@@ -153,7 +154,7 @@ $letter-spacing: 0.015em;
   --text-color: var(--gray-80);
 }
 
-:root[data-theme='kawai'] {
+:root[data-theme='kawaii'] {
   --gray-0: #ffbde6;
   --gray-5: #dcb7ff;
   --gray-10: #d6b1ff;
@@ -191,19 +192,19 @@ $letter-spacing: 0.015em;
   --gray-90: #7399a6;
   --gray-100: #80a5b3;
 
-  --background-color: var(--gray-0);
+  --background-color: #000;
   --background-color-rgb: 49, 15, 56;
   --border-color: var(--gray-80);
   --shadow-color: var(--gray-80);
   --secondary-color: var(--gray-70);
 
-  --text-color: var(--gray-90);
+  --text-color: #f48fb1;
 }
 
 :root[data-theme='coffee'] {
   --gray-0: #170a06;
   --gray-5: #2f211d;
-  --gray-10: #251713;
+  --gray-10: #663300;
   --gray-15: #2b1d19;
   --gray-20: #40332e;
   --gray-30: #3c2f2a;
@@ -215,11 +216,59 @@ $letter-spacing: 0.015em;
   --gray-90: #8b7d78;
   --gray-100: #978985;
 
-  --background-color: var(--gray-0);
+  --background-color: #5d4037;
   --background-color-rgb: 49, 15, 56;
   --border-color: var(--gray-80);
   --shadow-color: var(--gray-80);
-  --secondary-color: var(--gray-70);
+  --secondary-color: rgb(255, 255, 255);
 
-  --text-color: var(--gray-90);
+  --text-color: #f48fb1;
+}
+
+:root[data-theme='firstog'] {
+  --gray-0: #170a06;
+  --gray-5: #2f211d;
+  --gray-10: #ffff00; /* ZEN background and
+  --gray-15: #ffff00; /* submit button */
+  --gray-20: #ffff00; /* form lines and bottom separator + wallet */
+  --gray-30: #3c2f2a;
+  --gray-40: #4a3d39;
+  --gray-50: #ffff00; /* BETA flag & active gallery selector */
+  --gray-60: #ffff00; /* optional flags */
+  --gray-70: #ffff00; /* checkboxes */
+  --gray-80: #7e706c;
+  --gray-90: #f48fb1; /* inactive gallery selector */
+  --gray-100: #978985;
+
+  --background-color: #00b;
+  --background-color-rgb: 0, 0, 187;
+  --border-color: var(--gray-80);
+  --shadow-color: var(--gray-80);
+  --secondary-color: rgb(255, 255, 0);
+
+  --text-color: #ff0066;
+}
+
+:root[data-theme='lastog'] {
+  --gray-0: #170a06;
+  --gray-5: #2f211d;
+  --gray-10: #690000;
+  --gray-15: #690000;
+  --gray-20: #ffff00;
+  --gray-30: #3c2f2a;
+  --gray-40: #4a3d39;
+  --gray-50: #ffff00;
+  --gray-60: #ffff00;
+  --gray-70: #ff0000;
+  --gray-80: #7e706c;
+  --gray-90: #ff0000;
+  --gray-100: #978985;
+
+  --background-color: #111111;
+  --background-color-rgb: 34, 34, 34;
+  --border-color: var(--gray-80);
+  --shadow-color: var(--gray-80);
+  --secondary-color: rgb(255, 0, 0);
+
+  --text-color: #00ff00;
 }
