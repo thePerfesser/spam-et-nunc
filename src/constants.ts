@@ -106,7 +106,8 @@ export const MARKETPLACE_CONTRACTS_TO_NAME = flipObject(
   MARKETPLACE_CONTRACTS_FROM_NAME
 )
 
-export const HEN_CONTRACT_FA2 = 'KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton'
+//export const HEN_CONTRACT_FA2 = 'KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton'
+export const HEN_CONTRACT_FA2 = 'KT1S6JgVZrRKoyHhzJqAbpmGZ1qq5KXWsd7E'
 
 export const UKRAINE_FUNDING_CONTRACT = 'KT1DWnLiUkNtAQDErXxudFEH63JC6mqg3HEx'
 export const PAKISTAN_FUNDING_CONTRACT = 'KT1Jpf2TAcZS7QfBraQMBeCxjFhH6kAdDL4z'
@@ -129,7 +130,7 @@ export const SWAP_TYPE_HEN = 'HEN'
 export const MAIN_MARKETPLACE_CONTRACT = MARKETPLACE_CONTRACT_TEIA // the one that is used for swapping
 export const MAIN_MARKETPLACE_CONTRACT_SWAP_TYPE = SWAP_TYPE_TEIA
 
-export const BURN_ADDRESS = 'tz1burnburnburnburnburnburnburjAYjjX'
+export const BURN_ADDRESS = 'tz1burnspamburnburnburnburnburjAYjjX'
 
 export const COVER_COMPRESSOR_OPTIONS = {
   quality: 0.85,
@@ -143,6 +144,7 @@ export const THUMBNAIL_COMPRESSOR_OPTIONS = {
   maxHeight: 350,
 }
 
+/*
 export const LICENSE_TYPES: { [key: string]: string } = {
   none: 'None (All rights reserved)',
   'cc-by-4.0': 'CC-BY-4.0 (Attribution)',
@@ -152,6 +154,12 @@ export const LICENSE_TYPES: { [key: string]: string } = {
   'cc-by-nc-sa-4.0': 'CC BY-NC-SA 4.0 (Attribution-NonCommercial-ShareAlike)',
   'cc-by-nc-nd-4.0': 'CC BY-NC-ND 4.0 (Attribution-NonCommercial-NoDerivs)',
   custom: 'Custom (Specify below)',
+}
+
+*/
+
+export const LICENSE_TYPES: { [key: string]: string } = {
+  'cc0-1.0': 'CC0 1.0 Universal (Public Domain Dedication)',
 }
 
 export const LICENSE_TYPES_OPTIONS = Object.keys(LICENSE_TYPES).map((k) => ({
