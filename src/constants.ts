@@ -107,7 +107,7 @@ export const MARKETPLACE_CONTRACTS_TO_NAME = flipObject(
 )
 
 //export const HEN_CONTRACT_FA2 = 'KT1RJ6PbjHpwc3M5rw5s2Nbmefwbuwbdxton'
-export const HEN_CONTRACT_FA2 = 'KT1S6JgVZrRKoyHhzJqAbpmGZ1qq5KXWsd7E'
+export const HEN_CONTRACT_FA2 = 'KT1S6JgVZrRKoyHhzJqAbpmGZ1qq5KXWsd7E' // this is actually the spam-et-nunc FA2 contract (https://smartpy.io/explorer?address=KT1S6JgVZrRKoyHhzJqAbpmGZ1qq5KXWsd7E)
 
 export const UKRAINE_FUNDING_CONTRACT = 'KT1DWnLiUkNtAQDErXxudFEH63JC6mqg3HEx'
 export const PAKISTAN_FUNDING_CONTRACT = 'KT1Jpf2TAcZS7QfBraQMBeCxjFhH6kAdDL4z'
